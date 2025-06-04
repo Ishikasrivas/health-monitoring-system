@@ -1,8 +1,68 @@
-# Health-Monitoring-system-by-using-Machine-Learning
-It predict the result based on the condition of the patient like low, medium and high the features of ECG data, Temperature data, Presssure and Patient Id.
-Here, we use Five Modules to shown the result.
-**Datasets Collection :** With the help of iot the datasets are collected the features of ecg data, temperature data, pressure data and Patient id in the form of CSV file.
-**Datasets PreProcessing :** It is used to process the data into proper format of the system.
-**Data Visualization :** Here, we use the Exploratory data analysis(EDA) concept like bar chart, data correlation matrix, Histogram plot and Kernel distribution plot etc.
-**Model Implementation :** Here, we use the different types of machine learning algorithm like Logistic Regression, Naive Bayes, Decision Tree and Support Vector Machine are used to train and predict the result of the system.
-**Classification and Prediction :**  All the algorithm machine learning model accuracy score are showed and then also shown the performance metrics like classification report of precision, recall, f1 score and support and then also shown the confusion matrix and then also shown the comparison graph of the different machine learning algorithm score and then finally user given the input data in the form of array and then final prediction shown the condition of the user like low, medium and high.
+# Health Monitoring System using Machine Learning 🩺📊
+
+This project is a **health condition prediction system** that uses Machine Learning to classify a patient's health status into categories like **Low**, **Medium**, or **High** risk. It leverages physiological data such as **ECG**, **Temperature**, **Pressure**, and **Patient ID** — typically collected using IoT devices.
+
+---
+
+## 🔧 Project Modules
+
+The system is divided into **five core modules**:
+
+### 1. 📥 Dataset Collection
+- Patient data is collected using IoT devices.
+- Features include:
+  - ECG Data
+  - Temperature Data
+  - Pressure Data
+  - Patient ID
+- Stored in a structured `.csv` format.
+
+### 2. 🧹 Dataset Preprocessing
+- Raw data is cleaned and formatted for model training.
+- Missing values handled, data types corrected, and normalization applied.
+
+### 3. 📊 Data Visualization
+- Exploratory Data Analysis (EDA) is performed using:
+  - Bar Charts
+  - Correlation Matrix
+  - Histogram Plots
+  - Kernel Density Estimation (KDE) plots
+
+### 4. 🤖 Model Implementation
+- Machine learning models used:
+  - Logistic Regression
+  - Naive Bayes
+  - Decision Tree
+  - Support Vector Machine (SVM)
+- Models are trained and evaluated on the processed dataset.
+
+### 5. ✅ Classification and Prediction
+- Accuracy scores for each model are displayed.
+- Evaluation metrics include:
+  - Classification Report (Precision, Recall, F1 Score, Support)
+  - Confusion Matrix
+  - Performance comparison via graphs
+- The system accepts user input as an array and predicts the health condition.
+
+---
+
+## 📁 Files in the Repository
+
+- `IotFile.ipynb` — Jupyter notebook containing the entire implementation
+- `dataset.csv` — Collected dataset used for training/testing
+- `README.md` — Project overview and documentation
+
+---
+
+## 💡 Future Improvements
+- Real-time prediction using live IoT sensor input
+- Deploy as a web or mobile application
+- Integration with cloud services for remote monitoring
+
+---
+
+## 📌 How to Run
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Ishikasrivas/health-monitoring-system.git
