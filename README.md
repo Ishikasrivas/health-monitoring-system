@@ -1,4 +1,4 @@
-# Health Monitoring System using Machine Learning 🩺📊
+#  Smart Health Predictor System using Machine Learning 🩺📊
 
 This project is a **health condition prediction system** that uses Machine Learning to classify a patient's health status into categories like **Low**, **Medium**, or **High** risk. It leverages physiological data such as **ECG**, **Temperature**, **Pressure**, and **Patient ID** — typically collected using IoT devices.
 
